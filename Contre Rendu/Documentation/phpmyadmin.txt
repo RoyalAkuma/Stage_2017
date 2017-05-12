@@ -1,0 +1,48 @@
+
+
+
+----------php myadmin
+
+id : root
+mdp : aspttsluc1
+
+
+acces externe NAS administration :
+
+quickconnect.to/hts-france/ 
+
+
+
+______________________________________
+
+
+clé api google : AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic 
+
+
+compte liée :
+
+id : developpeur@solishop.fr
+
+mdp : developpeur_hts44
+
+date de naissance 01 01 1990
+
+
+<iframe width="600" height="450" frameborder="0" style="border:0"
+src="https://www.google.com/maps/embed/v1/place?q=...&key=..." allowfullscreen></iframe> 
+
+
+
+________________________________________
+
+
+
+base mysql pour l'adresse :
+
+
+vendor_address_street
+vendor_address_post_code
+vendor_address_city
+
+
+

@@ -1,0 +1,45 @@
+$this->execPieceByName('ff_InitLib');
+
+$db = JFactory::getDbo();
+
+$query2 = $db->getQuery(true);
+
+$vendeur = new stdClass();
+
+$vendeur->vendor_id = "";
+$vendeur->vendor_admin_id = 3001;
+$vendeur->vendor_name = 0;
+$vendeur->vendor_alias = 0;
+$vendeur->vendor_canonical = 0;
+$vendeur->vendor_email = 0;
+$vendeur->vendor_published = 0;
+$vendeur->vendor_currency_id =0;
+$vendeur->vendor_description = 0;
+$vendeur->vendor_access = 0;
+$vendeur->vendor_shippings = 0;
+$vendeur->vendor_params = 0;
+$vendeur->vendor_image = 0;
+$vendeur->vendor_created = 0;
+$vendeur->vendor_modified = 0;
+$vendeur->vendor_template_id = 0;
+$vendeur->vendor_address_company = 0;
+$vendeur->vendor_address_street = 0;
+$vendeur->vendor_address_street2 = 0;
+$vendeur->vendor_address_post_code = 0;
+$vendeur->vendor_address_city = 0;
+$vendeur->vendor_address_fax = 0;
+$vendeur->vendor_address_state = 0;
+$vendeur->vendor_address_country = 0;
+$vendeur->vendor_address_vat = 0;
+$vendeur->vendor_zone_id = 0;
+$vendeur->vendor_site_id = 0;
+$vendeur->vendor_address_telephone = 0;
+$vendeur->vendor_average_score = 0;
+$vendeur->vendor_total_vote = 0;
+$vendeur->vendor_terms = 0;
+$vendeur->vendor_address_region = 0;
+$vendeur->vendor_iban = 0;
+$vendeur->vendor_bic = 0;
+$vendeur->vendor_frais_port = 0;
+
+$result = JFactory::getDbo()->insertObject('lh81p_hikamarket_vendor', $vendeur);
