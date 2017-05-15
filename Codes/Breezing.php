@@ -1,20 +1,27 @@
 <?php
 
-
+//initialisation et recupération des champs dans le formulaire
 $this->execPieceByName('ff_InitLib');
-
-$email = ff_getSubmit('email');
+//nom de l'esat
 $nom_esat = ff_getSubmit('nom_esat');
 $alias = strtolower(ff_getSubmit('nom_esat'));
+//adresse de l'esat
 $adresse1 = ff_getSubmit('adresse1');
 $adresse2 = ff_getSubmit('adresse2');
 $codepostale = ff_getSubmit('code_postal');
 $city = ff_getSubmit('ville');
+//coordonnée telephone
 $telephone = ff_getSubmit('telephone1');
+//coordonnée banquaire
 $iban = ff_getSubmit('IBAN');
 $bic = ff_getSubmit('BIC');
 
+//test pour savoir si l'id est le bon
 
+
+$user = JFactory::getUser();
+$email = $user->email;
+$id_soli = $user->username;
 
 $db = JFactory::getDbo();
 $query = $db->getQuery(true);
@@ -63,26 +70,14 @@ $vendeur->vendor_address_telephone = $telephone;
 $vendeur->vendor_average_score = 0;
 $vendeur->vendor_total_vote = 0;
 $vendeur->vendor_terms = "";
-$vendeur->vendor_address_region = "";
+
+
+
+$vendeur->vendor_address_region = 0;
 $vendeur->vendor_iban = $iban;
 $vendeur->vendor_bic = $bic;
 $vendeur->vendor_frais_port = "";
 
 $result = JFactory::getDbo()->insertObject('lh81p_hikamarket_vendor', $vendeur);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ?>
