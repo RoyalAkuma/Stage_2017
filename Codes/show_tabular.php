@@ -372,7 +372,7 @@ imagedestroy($srcHandi);
 				 echo $this->element->product_name;
 				 echo '</h2>';
 				 echo '<p>';
-				 echo 'Le produit ' . $this->element->product_name .  '<br /> nous viens de ' . $results[2] . '.';
+				 echo 'Adresse : ' . $results[0] . $results[1] . $results[2]'.';
 				 echo '</p>';
 				 echo '</div>';
 

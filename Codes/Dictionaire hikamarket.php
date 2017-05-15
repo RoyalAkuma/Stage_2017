@@ -7,40 +7,31 @@ $region = 0;
 Dico{
 
   { dep = 01,
-    state = state_Ain_1306,
     region = 07
   },
   {
     dep = 02,
-    state = state_Aisne_1307,
     region = 04
   },
   { dep = 03,
-    state = state_Allier_1308,
     region = 07
   },
   { dep = 04,
-    state = state_Alpes_de_Haute_Provence_1309,
     region = 08
   },
   { dep = 05,
-    state =  state_1310,
     region = 08
   },
   { dep = 06,
-    state =  state_Alpes_Maritimes_1311,
     region = 08
   },
   { dep = 07,
-    state =  state_1312,
     region = 07
   },
   { dep = 08,
-    state =  state_1313,
     region = 05
   },
   { dep = 09,
-    state =  state_1314,
     region = 08
   },
   { dep = 10,
