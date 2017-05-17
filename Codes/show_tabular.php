@@ -355,7 +355,7 @@ imagedestroy($srcHandi);
 				 $query = $db->getQuery(true);
 
 				 // on recupère l'addresse, le code postale et le nom de la ville correspondant à vendorId
-				 $query->select($db->quoteName(array('vendor_address_street', 'vendor_address_post_code', 'vendor_address_city')));
+				 $query->select($db->quoteName(array('vendor_name', 'vendor_address_street', 'vendor_address_post_code', 'vendor_address_city')));
 				 $query->from($db->quoteName('lh81p_hikamarket_vendor'));
 				 $query->where($db->quoteName('vendor_id') . ' LIKE '. $db->quote($vendorId));
 
@@ -368,11 +368,9 @@ imagedestroy($srcHandi);
 
 
 				 echo '<div id="LocalisationDescription">';
-				 echo '<h2>';
-				 echo $this->element->product_name;
-				 echo '</h2>';
+				 echo '<h2>'. $results[0] . '</h2>';
 				 echo '<p>';
-				 echo 'Adresse : ' . $results[0] . $results[1] . $results[2]'.';
+				 echo 'Adresse : ' . $results[1] . ' ' . $results[2]. ' ' . $results[3] . '.' ;
 				 echo '</p>';
 				 echo '</div>';
 
@@ -385,7 +383,7 @@ imagedestroy($srcHandi);
 
 				 echo '<div id=LocalisationMap>';
 					echo '<iframe width="450" height="300" frameborder="0" style="border:0"
-						src="https://www.google.com/maps/embed/v1/search?q=' . $results[1]. '+' . $results[2] .'&zoom=8&key=AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic" allowfullscreen></iframe>';
+						src="https://www.google.com/maps/embed/v1/search?q=' . $results[2]. '+' . $results[3] .'&zoom=8&key=AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic" allowfullscreen></iframe>';
 				echo '</div>';
 
 					?>
