@@ -1,3 +1,34 @@
+
+<ul>
+<li class="western" lang="fr-FR" style="text-align: left;">Des produits "handi-solidaires" de qualit&eacute;</li>
+<li style="text-align: left;"><span lang="fr-FR">R&eacute;alisez des cadeaux &eacute;thiques pour vos clients, salari&eacute;s ou vos proches</span></li>
+<li class="western" lang="fr-FR" style="text-align: left;">Affirmez votre d&eacute;marche de consom'acteur</li>
+<li class="western" lang="fr-FR" style="text-align: left;">Profitez d'une logistique performante</li>
+</ul>
+<p class="western" lang="fr-FR" style="text-align: left; padding-left: 30px;"><a href="index.php?option=com_hikashop&amp;view=category&amp;layout=listing&amp;Itemid=979">Acc&eacute;dez &agrave; la boutique...&nbsp;&gt;</a></p>
+
+
+
+Produits fabriqués en France par le secteur adapté-protégé
+Transparence sur l'origine des produits, indiquée sur chaque fiche-produit
+Soutenez l'intégration des personnes en situation de handicap
+
+
+
+Développez les ventes de votre EA ou ESAT
+Profitez de nos services complémentaires gratuitement
+Profitez d'une visibilité et diffusion nationale
+Profitez d'une communication élargie
+
+
+
+
+
+
+
+
+
+
 <?php
 /**
  * @package    HikaMarket for Joomla!
@@ -98,3 +129,27 @@ if(!empty($this->modules)) {
 ?>
 	</div>
 </div>
+
+
+_______________________________________________________________________
+
+
+//features
+
+Article 1 :
+
+<p class="produits-qualite">&nbsp;</p>
+<hr id="system-readmore" />
+<h1>&nbsp;</h1>
+<h1><span style="font-size: 14pt;">Une qualit&eacute; sup&eacute;rieure pour les produits solidaires</span></h1>
+<h2><span style="font-size: 12pt;">Un contr&ocirc;le important lors de la fabrication des produits solidaires</span></h2>
+<p>Au sein des entreprises et &eacute;tablissements du secteur prot&eacute;g&eacute; et adapt&eacute;, les personnes en situation de handicap ont un besoin plus important de formation et de suivi lors de la fabrication des produits solidaires. Pour cette raison, des moniteurs encadrants (dipl&ocirc;m&eacute;s d'Etat) sont mis en place pour encadrer ce personnel. En moyenne, on compte un moniteur pour environ sept salari&eacute;s en situation de handicap. Le r&ocirc;le de ce salari&eacute; encadrant sera de former les salari&eacute;s &agrave; la r&eacute;alisation du produit solidaire et de contr&ocirc;ler chaque &eacute;tape de cr&eacute;ation afin de vous certifier des produits de qualit&eacute; &agrave; la sortie de l'EA (entreprise adapt&eacute;e) ou de l'ESAT (&eacute;tablissement de service d'aide par le travail). On constate un contr&ocirc;le beaucoup plus fr&eacute;quents que dans une entreprise ordinaire ; la qualit&eacute; s'en ressent donc.</p>
+<h2><span style="font-size: 12pt;">U<span style="font-size: 12pt;">ne recherche de qualit&eacute; avant la productivit&eacute;</span></span></h2>
+<p>L'objectif d'une EA ou d'un ESAT est de cr&eacute;er du travail pour les personne en situation de handicap. Pour cette raison, les dirigeants souhaitent cr&eacute;er des produits solidaires de qualit&eacute; et sont peu regardants sur le prix des mati&egrave;res premi&egrave;res car la pression sur le prix est moindre. Autrement dit, il est possible de dire que le choix des mati&egrave;res premi&egrave;res est de plus en plus "made in france" afin de garantir des produits de qualit&eacute; &agrave; la fin du proc&eacute;d&eacute;.</p>
+<h2><span style="font-size: 12pt;">Des produits fabriqu&eacute;s "&agrave; la main"</span></h2>
+<p>La majorit&eacute; des produits solidaires pr&eacute;sents sur le site Solishop sont issues d'une fabrication r&eacute;alis&eacute;e &agrave; la main par les salari&eacute;s en situation de handicap. Le temps consacr&eacute;e pour la r&eacute;alisation d'un produit est nettement sup&eacute;rieur &agrave; celui d'un salari&eacute; valide ; les finitions sont r&eacute;alis&eacute;es sans limite du temps. Il est donc ainsi possible d'obtenir des produits solidaires de qualit&eacute;, reconnu par <a href="index.php?option=com_content&amp;view=article&amp;id=17:label-handi-fabrique&amp;catid=20&amp;Itemid=666">le label handi-fabriqu&eacute;</a>.</p>
+<p style="text-align: center;"><a href="index.php?option=com_content&amp;view=featured&amp;Itemid=932">D&eacute;couvrez l'ensemble des produits handi-fabriqu&eacute;s sur la boutique Solishop</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
