@@ -133,7 +133,43 @@ if(!empty($this->modules)) {
 
 _______________________________________________________________________
 
+Bonjour,
 
+Rapport d'activité de la semaine du lundi 15/05/17 au vendredi 19/05/17.
+
+
+Lors de cette semaine, j'ai mis en production les programmes que j'ai développé.
+A savoir :
+- L'automatisation de la création des vendeurs.
+- La géolocalisation des vendeurs.
+- La géolocalisation du produits.
+
+
+J'ai par la suite commencer à travailler sur la page d'accueil de solishop.
+A savoir :
+- Comment fonctionne les modules/les catégories/les Articles.
+- Comment modifier via le front end.
+- Comment modifier via le back end.
+
+
+Le problème rencontré pour le moment est qu'il m'est difficile de comprendre comment tout est fait du coté back end.
+Je dois donc plus me familiariser et comprendre où et comment je modifie ces éléments pour arriver au résultat attendu.
+L'autre problème est que certains des éléments ont certainement été modifié par mes prédécesseurs et je dois comprendre ce qu'ils ont fait.
+Ce qu'ils ont customisé par rapport au template de base etc..
+
+
+Pour la semaine à venir je pense pouvoir arriver à un prototype pour la page d'accueil :
+Changement de deux éléments principaux de la page d'accueil rajout d'une nouvelle catégories (une vidéo et un fil d'actualités.)
+Je me ferai aider par Pierre normalement (l'ancien bénévole ayant travaillé sur solishop).
+Je pense qu'il pourra m'aider assez rapidement à comprendre là ou je patine.
+
+Je ne sais pas si j'y arriverai assez vite mais si c'est le cas j'essayerai plusieurs style et je les proposerais à l’équipe de solishop et bien sûre utiliser leur retours pour ces prototype.
+
+
+Cordialement,
+
+Joachim
+____________________
 //features
 
 Article 1 :
