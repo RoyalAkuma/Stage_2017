@@ -15495,6 +15495,7 @@ ul.flaticon.right li a i.fa {
 .moduletable.options .item .item_content,
 .moduletable.services .item .item_content {
   color: #ffffff;
+  background-color: #902a2a;
 }
 .moduletable.options .item .item_content *,
 .moduletable.services .item .item_content * {
@@ -26151,15 +26152,3 @@ background: url(../../../images/menus/logo-mobilier.png) no-repeat;
 .titre-dons {
 background: url(../../../images/menus/logo-dons.png) no-repeat;
 }
-<li class="item-527"><a class="material-design-screen44" href="#">PSD Files to Dig in</a>
-</li>
-<li class="item-528"><a class="material-design-tack" href="#">SEO, Mobile &amp; Google-friendly</a>
-</li>
-                  <li class="item-529"><a class="material-design-set6" href="#">Premium Navigation</a>
-                   </li>
-                   <li class="item-530 lastItem"><a class="material-design-turn20" href="#">Create Graphs with ‘Charts’</a></li>
-                   </ul>
-</div></div></div>
-              </div>
-            </div>
-          </div>
