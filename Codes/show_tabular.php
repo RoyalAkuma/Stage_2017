@@ -293,12 +293,13 @@ imagedestroy($srcHandi);
 						<?php } ?> -->
 			<?php if($status_vote == "comment" || $status_vote == "two" || $status_vote == "both" ){
 			?>
+			<li id="hikashop_show_tabular_onglet_localisation_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('Le producteur');?></li>
 			<li id="hikashop_show_tabular_comment_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('PRODUCT_COMMENT');?></li>
 			<li id="hikashop_show_tabular_new_comment_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('PRODUCT_NEW_COMMENT');?></li>
 
 					<!-- Ajout de l'onglet Localisation-->
 
-			<li id="hikashop_show_tabular_onglet_localisation_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('Localisation');?></li>
+
 			<?php } ?>
 		</ul>
 
@@ -370,7 +371,8 @@ imagedestroy($srcHandi);
 				 echo '<div id="LocalisationDescription">';
 				 echo '<h2>'. $results[0] . '</h2>';
 				 echo '<p>';
-				 echo 'Adresse : ' . $results[1] . ' ' . $results[2]. ' ' . $results[3] . '.' ;
+				 echo  $results[1] . '<br /> ';
+				 echo  $results[2]. ' ' . $results[3] . '.' ;
 				 echo '</p>';
 				 echo '</div>';
 
@@ -383,7 +385,7 @@ imagedestroy($srcHandi);
 
 				 echo '<div id=LocalisationMap>';
 					echo '<iframe width="450" height="300" frameborder="0" style="border:0"
-						src="https://www.google.com/maps/embed/v1/search?q=' . $results[2]. '+' . $results[3] .'&zoom=8&key=AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic" allowfullscreen></iframe>';
+						src="https://www.google.com/maps/embed/v1/search?q=' . $results[2]. '+' . $results[3] .'&zoom=7&key=AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic" allowfullscreen></iframe>';
 				echo '</div>';
 
 					?>
