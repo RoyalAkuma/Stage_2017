@@ -1,3 +1,4 @@
+@import "fl-drawing-tools.css";
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -15499,11 +15500,14 @@ ul.flaticon.right li a i.fa {
   display: table-cell;
   float: none;
   width: 33.33%;
+
 }
 .moduletable.options .item .item_content,
 .moduletable.services .item .item_content {
+
   color: #ffffff;
   background-color: #902a2a;
+  height : 400px;
 }
 .moduletable.options .item .item_content *,
 .moduletable.services .item .item_content * {
@@ -15515,6 +15519,8 @@ ul.flaticon.right li a i.fa {
   -moz-transition: 0.2s ease;
   -o-transition: 0.2s ease;
   transition: 0.2s ease;
+  padding-top: 20%;
+  padding-bottom: 20%;
 }
 .moduletable.options .item .item_content > a:hover .item_img img,
 .moduletable.services .item .item_content > a:hover .item_img img {
@@ -15523,6 +15529,7 @@ ul.flaticon.right li a i.fa {
   -ms-transform: scale(1.1);
   -o-transform: scale(1.1);
   transform: scale(1.1);
+
 }
 .moduletable.options .row-fluid,
 .moduletable.services .row-fluid {
