@@ -1,4 +1,4 @@
-  /**
+/**
    * @package    HikaShop for Joomla!
    * @version    2.3.4
    * @author     hikashop.com
@@ -2755,8 +2755,6 @@
     position: relative;
     width : 43%;
     right : 5%;
-    overflow : hidden;
-    height : 300px;
   }
 
   #LocalisationDescription {

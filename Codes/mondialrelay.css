@@ -1,0 +1,143 @@
+.MR-Widget {
+	font-family:Verdana!important;
+	font-size:10px!important;
+	border:solid 1px #ddd!important;
+	margin:5px;
+	background:#fff;
+	width:760px;
+}
+.MR-Widget .MRW-Title {
+	color:#666;
+	font-weight:700;
+	text-align:center;
+	background:#eee;
+	padding:3px;
+	border-bottom:solid 1px #ddd
+}
+.MR-Widget .MRW-Results {
+	overflow:auto;
+	padding:10px;
+	height:390px
+}
+.MR-Widget input {
+	background:url(./imgs/bg_input.png) bottom repeat-x #fefefe;
+	border:solid 1px #ddd
+}
+.MR-Widget .MRW-Search {
+	padding:25px 10px 25px 10px;
+	text-align:center;
+	background:#fafafa;
+	background:url(./imgs/mr-64.png) no-repeat 2% 50%
+}
+.es-ES .MRW-Search {
+	padding:25px 0 25px 20px!important;
+	background:url(./imgs/mr-es64.png) no-repeat 2% 50%!important
+}
+.MR-Widget .MRW-Line {
+	display:block;
+	margin-bottom:3px
+}
+.MR-Widget .MRW-BtGo,.MR-Widget .MRW-BtGeoGo {
+	border:solid 1px #ddd;
+	background:#eee
+}
+.MR-Widget .PR-List-Item {
+	border-left:solid 2px #ddd;
+	padding:3px;
+	margin-bottom:4px;
+	cursor:pointer
+}
+.MR-Widget .PR-Name {
+	color:#ca0047;
+	font-weight:700
+}
+.MR-Widget .PR-hover,.MR-Widget .PR-Selected {
+	border-left:solid 2px #ca0047;
+	background:#f7f7f7
+}
+.MR-Widget .MRW-Errors {
+	color:#ff8c44;
+	display:block;
+	background:#ffede2;
+	border:solid 1px #ff8c44;
+	font-weight:100;
+	padding:4px;
+	display:none
+}
+.MR-Widget .PR-Warning {
+	color:#ffa500;
+	font-weight:700;
+	text-align:center;
+	padding:2px
+}
+.MR-Widget .PR-Hours {
+	width:100%;
+	color:#666;
+	border:solid 1px #eee;
+	font-size:10px
+}
+.MR-Widget .PR-Hours td {
+	width:35%;
+	text-align:center
+}
+.MR-Widget .PR-Hours .d {
+	background:#eee
+}
+.MR-Widget .MRW-fl-Select,.MR-Widget .PR-AutoCplCity {
+	position:absolute;
+	width:100px;
+	text-align:left;
+	display:none;
+	border:solid 1px #eee;
+	background:#fff;
+	z-index:8000
+}
+.MR-Widget .MRW-fl-Select .MRW-fl-Item,.MR-Widget .PR-City {
+	padding:3px
+}
+.MR-Widget .MRW-fl-Select MRW-fl-Item:hover,.MR-Widget .PR-City:hover {
+	cursor:pointer;
+	background:#f5f5f5;
+	font-weight:700
+}
+.MR-Widget .AutoCpl-Hover {
+	background:#f5f5f5;
+	font-weight:700
+}
+.MR-Widget #MRW-Map {
+	overflow:hidden !important;
+	font-size:8pt !important
+}
+.MR-Widget .InfoWindow {
+	width:320px !important
+}
+.MR-Widget .PR-Name {
+	padding-bottom:2px
+}
+.MR-Widget .Tabs-Btns {
+	overflow:auto;
+	border-bottom:1px solid #ccc
+}
+.MR-Widget .Tabs-Btn {
+	display:inline-block;
+	padding:2px 5px;
+	float:left;
+	background-color:#eee;
+	cursor:pointer
+}
+.MR-Widget .Tabs-Btn-Selected {
+	font-weight:bold;
+	border:1px solid #ccc;
+	border-bottom:0
+}
+.MR-Widget .Tabs-Tabs {
+	margin-top:2px
+}
+.MR-Widget .Tabs-Tab {
+	display:none;
+	visibility:hidden
+}
+.MR-Widget .Tabs-Tab-Selected {
+	display:inline;
+	visibility:visible
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5" type="plugin" group="hikashop" method="upgrade">
+	<name>HikaShop: Mondial Relay Custom Field</name>
+	<creationDate>{__DAY__} {__MONTH__} {__YEAR__}</creationDate>
+	<version>{__PLUGIN_VERSION__}</version>
+	<author>Hikari Software</author>
+	<authorEmail>dev@hikashop.com</authorEmail>
+	<authorUrl>http://www.hikashop.com</authorUrl>
+	<copyright>Copyright (C) 2008-{__YEAR__} HIKARI SOFTWARE SARL - All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<description>HikaShop: Type de champs personnalisé de selection de point relai avec Mondial Relay</description>
+	<files>
+		<filename plugin="mondialrelay">mondialrelay.php</filename>
+		<filename>mondialrelay_class.php</filename>
+		<filename>jquery.plugin.mondialrelay.parcelshoppicker.js</filename>
+	</files>
+	<params addpath="/components/com_hikashop/params">
+	</params>
+	<config>
+		<fields name="params" addfieldpath="/components/com_hikashop/fields">
+		</fields>
+	</config>
+</extension>
