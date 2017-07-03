@@ -88,7 +88,8 @@ if(!empty($plugin) && (!empty($plugin->published) || !empty($plugin->enabled)))
 ?>
 
 <!-- Ajout de la localisation sur la fiche des vendeurs -->
-
+	<h4>Géolocalisation</h4>
+	</ br>
 	<div id="hikamarket_vendor_Localisation">
 	<?php
 
@@ -96,11 +97,12 @@ if(!empty($plugin) && (!empty($plugin->published) || !empty($plugin->enabled)))
 	$res1 = $this->vendor->vendor_address_post_code;
 	$res2 = $this->vendor->vendor_address_city;
 
-	echo '<h4>Géolocalisation</h4>';
-	echo '<iframe width="600" height="450" frameborder="0" style="border:0"
+
+	echo '<iframe width="60%" height="600" frameborder="0" style="border:0;margin-top: -175px;"
 		src="https://www.google.com/maps/embed/v1/search?q=' . $res1. '+' . $res2 .'&zoom=8&key=AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic" allowfullscreen></iframe>';
 
 	?>
+
 </div>
 
 
