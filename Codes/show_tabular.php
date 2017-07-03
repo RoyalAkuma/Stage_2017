@@ -286,7 +286,7 @@ imagedestroy($srcHandi);
 			<li id="hikashop_show_tabular_description_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('PRODUCT_DESCRIPTION');?></li>
 			<?php if($hide_specs == 0){ ?>
 			<li id="hikashop_show_tabular_specification_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('SPECIFICATIONS');?></li>
-		  <li id="hikashop_show_tabular_onglet_localisation_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('Localisation');?></li>
+		  <li id="hikashop_show_tabular_onglet_localisation_li" class="hikashop_tabs_li ui-corner-top"><?php echo JText::_('Le producteur');?></li>
 			<?php } ?>
 					<!--<?php
 				//Traitement des categories, afin dafficher ou non la categorie composition
@@ -378,7 +378,7 @@ imagedestroy($srcHandi);
 				 $query = $db->getQuery(true);
 
 				 // on recupère l'addresse, le code postale et le nom de la ville correspondant à vendorId
-				 $query->select($db->quoteName(array('vendor_name', 'vendor_address_street', 'vendor_address_post_code', 'vendor_address_city')));
+				 $query->select($db->quoteName(array('vendor_name', 'vendor_address_street', 'vendor_address_post_code', 'vendor_address_city', 'vendor_presentation_short')));
 				 $query->from($db->quoteName('lh81p_hikamarket_vendor'));
 				 $query->where($db->quoteName('vendor_id') . ' LIKE '. $db->quote($vendorId));
 
@@ -389,12 +389,25 @@ imagedestroy($srcHandi);
 
 				 // test pour vérifier qu'on récupère bien les bonnes informations
 
+				 echo '<div id="LocalisationTitre" style="text-align:center;text">';
+				 echo '<h3>'. $results[0] . '</h3>';
+				 echo '</div>';
 
 				 echo '<div id="LocalisationDescription">';
-				 echo '<h2>'. $results[0] . '</h2>';
-				 echo '<p>';
-				 echo 'Adresse : ' . $results[1] . ' ' . $results[2]. ' ' . $results[3] . '.' ;
-				 echo '</p>';
+
+				 if (!empty($results[4])){
+					 echo '<h4 id="SousCat"style="text-decoration: underline;"> Notre Etablissement </h4>';
+					 echo $results[4];
+				 }
+
+				 echo '<h4 id="SousCat" style="text-decoration: underline;"> Où sommes nous ? </h4>';
+				 echo '<p>Adresse : </p>';
+				 echo $results[1] . " ";
+				 echo $results[2] . " ";
+				 echo '<br/>';
+				 echo $results[3] . " ";
+				 echo '<br/>';
+
 				 echo '</div>';
 
 				 // Utilisisation de l'api google map pour l'afficher.
@@ -406,7 +419,7 @@ imagedestroy($srcHandi);
 
 				 echo '<div id=LocalisationMap>';
 /*450300*/
-					echo '<iframe width="100%" height="600px" style="border:0; margin-top: -150px;"
+					echo '<iframe width="100%" height="600px" style="border:0; margin-top:-105px;"
 						src="https://www.google.com/maps/embed/v1/search?q=' . $results[2]. '+' . $results[3] .'&zoom=8&key=AIzaSyCu0ErDhM3pFAw_ixMMVdpZeHsrWEZqYic" allowfullscreen></iframe>';
 				echo '</div>';
 
@@ -443,7 +456,7 @@ imagedestroy($srcHandi);
 						echo $layout_vote_form;
 					?>
 				</div>
-			</div>';
+			</div>
 </form>
 <?php } ?>
 <input type="hidden" name="selected_tab" id="selected_tab" value="hikashop_show_tabular_description"/>
