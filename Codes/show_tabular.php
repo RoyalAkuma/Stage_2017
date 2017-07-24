@@ -453,7 +453,11 @@ imagedestroy($srcHandi);
 			<div class="hikashop_tabs_content" id="hikashop_show_tabular_new_comment">
 				<div id="hikashop_product_vote_form" class="hikashop_product_vote_form">
 					<?php
-						echo $layout_vote_form;
+					$user = &JFactory::getuser();
+					if(empty($user->username)){
+						echo "Connectez vous pour poster un commentaire.";
+					}
+					echo $layout_vote_form;
 					?>
 				</div>
 			</div>
